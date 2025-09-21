@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitStreak</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" onload="lucide.replace()"></script>></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-gray-900/50 backdrop-blur-lg">
+    <div class="max-w-6xl mx-auto flex justify-between items-center h-20 px-6">
+      <div class="flex items-center gap-2">
+        <i data-lucide="dumbbell" class="w-7 h-7 text-blue-500"></i>
+        <span class="text-2xl font-bold text-white">FitStreak</span>
+      </div>
+      <a href="https://fit-streak.base44.app" class="bg-blue-600 hover:bg-blue-700 rounded-full font-semibold px-6 py-2.5 flex items-center">
+        Get Started
+      </a>
+    </div>
+  </header>
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <div class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent"></div>
+      <div class="relative z-10 px-6">
+        <div class="flex items-center justify-center mb-8">
+          <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
+            <i data-lucide="dumbbell" class="w-12 h-12 text-white"></i>
+          </div>
+        </div>
+        
+        <h1 class="text-6xl md:text-8xl font-black mb-8 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent leading-tight">
+          FitStreak
+        </h1>
+        
+        <p class="text-2xl md:text-3xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
+          Transform your fitness journey with the power of 
+          <span class="text-orange-400 font-bold"> streaks</span>
+        </p>
+        
+        <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
+          Build unstoppable momentum, track your progress, and achieve your fitness goals with our streak-powered workout companion.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <a href="https://fit-streak.base44.app" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold text-xl px-12 py-4 rounded-2xl shadow-2xl flex items-center justify-center gap-3 transform hover:scale-105 transition-all duration-300">
+            <i data-lucide="zap" class="w-6 h-6"></i>
+            Start Your Journey
+          </a>
+          <div class="flex items-center text-gray-400">
+            <span class="text-sm">Free • No Credit Card Required</span>
+          </div>
+        </div>
+
+        <!-- Social Proof -->
+        <div class="mt-16 flex justify-center items-center space-x-8 text-gray-500">
+          <div class="flex items-center space-x-2">
+            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <span class="text-sm">Join thousands building streaks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <section class="py-20 md:py-32 bg-gray-800/50">
+      <div class="max-w-4xl mx-auto px-6 text-center mb-16">
+        <h2 class="text-5xl font-bold text-white mb-6">
+          Why <span class="text-blue-400">FitStreak?</span>
+        </h2>
+        <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+          We've redesigned fitness tracking around the most powerful motivator: consistency.
+        </p>
+      </div>
+      
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Feature Card 1 -->
+        <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+          <div class="flex items-center justify-center h-16 w-16 bg-blue-500/10 rounded-full mb-6 border border-blue-500/20">
+            <i data-lucide="flame" class="h-8 w-8 text-blue-400"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Streak Power</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Build unstoppable momentum with our streak-based system. Every workout counts, every day matters.
+          </p>
+        </div>
+
+        <!-- Feature Card 2 -->
+        <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+          <div class="flex items-center justify-center h-16 w-16 bg-blue-500/10 rounded-full mb-6 border border-blue-500/20">
+            <i data-lucide="trending-up" class="h-8 w-8 text-blue-400"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Smart Progress</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Track your strength gains, volume increases, and personal records with beautiful, insightful analytics.
+          </p>
+        </div>
+
+        <!-- Feature Card 3 -->
+        <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+          <div class="flex items-center justify-center h-16 w-16 bg-blue-500/10 rounded-full mb-6 border border-blue-500/20">
+            <i data-lucide="award" class="h-8 w-8 text-blue-400"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Achievement System</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Unlock badges, celebrate milestones, and share your victories with a supportive community.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 md:py-32 bg-gradient-to-r from-blue-900/20 to-purple-900/20">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold text-white mb-12">Built for Results</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="text-5xl font-bold text-blue-400 mb-2">85%</div>
+            <div class="text-gray-400">More consistent workouts</div>
+          </div>
+          <div class="text-center">
+            <div class="text-5xl font-bold text-green-400 mb-2">3x</div>
+            <div class="text-gray-400">Faster goal achievement</div>
+          </div>
+          <div class="text-center">
+            <div class="text-5xl font-bold text-purple-400 mb-2">92%</div>
+            <div class="text-gray-400">User satisfaction rate</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 md:py-32 bg-gray-900 text-center">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-5xl font-bold text-white mb-8">
+          Ready to Build Your <span class="text-orange-400">Streak?</span>
+        </h2>
+        <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+          Join thousands who've transformed their fitness with the power of consistency.
+        </p>
+        
+        <a href="https://fit-streak.base44.app" class="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-bold text-2xl px-16 py-6 rounded-2xl shadow-2xl flex items-center justify-center gap-4 transform hover:scale-105 transition-all duration-300">
+          <i data-lucide="flame" class="w-8 h-8"></i>
+          Start Your Streak Today
+        </a>
+        
+        <div class="mt-8 text-gray-500 text-sm">
+          Start your fitness transformation in under 2 minutes
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 border-t border-gray-800 py-12 text-center">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-center justify-center gap-2 mb-6">
+        <i data-lucide="dumbbell" class="w-6 h-6 text-blue-500"></i>
+        <span class="text-xl font-bold text-white">FitStreak</span>
+      </div>
+      <p class="text-gray-400 mb-4">
+        Transform your fitness journey with the power of streaks.
+      </p>
+      <div class="text-gray-600 text-sm">
+        © 2024 FitStreak. Built with ❤️ for fitness enthusiasts.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.replace(); // Render all Lucide icons
+    });
+  </script>
+
+</body>
+</html>
